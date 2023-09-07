@@ -189,10 +189,16 @@ input, select, textarea {
 		top: -0.5em;
 	}
 
-	hr {
+	/* hr {
 		border: 0;
 		border-bottom: solid 2px #efefef;
 		margin: 2em 0;
+	} */
+
+	hr {
+		border: 0;
+		border-bottom: solid 0.5px #525252;
+		margin: 1em 0;
 	}
 
 		hr.major {
@@ -1768,7 +1774,7 @@ input, select, textarea {
 	header p {
 		color: #b2b2b2;
 		position: relative;
-		margin: 0 0 1.5em 0;
+		margin: 0 0 0 0;
 	}
 
 	header h2 + p {
@@ -2601,9 +2607,9 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 8em 2.6em;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
 		width: 20%;
 	}
@@ -2635,7 +2641,7 @@ input, select, textarea {
 		#header h1 {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.75em;
-			line-height: 2em;
+			line-height: 1.5em;
 			margin: 0;
 		}
 
